@@ -20,6 +20,7 @@ A interface se comunica via REST com a API principal ([restaurantes_backend_API]
 - **Nome:** Overpass API (OpenStreetMap)
 - **Documentação:** https://wiki.openstreetmap.org/wiki/Overpass_API
 - **Licença/uso:** dados sob licença [ODbL](https://opendatacommons.org/licenses/odbl/), uso público e gratuito, sem necessidade de cadastro ou chave de API
+- **Rota/endpoint consumido:** `POST https://overpass-api.de/api/interpreter`, com uma query em Overpass QL que filtra elementos `node`/`way` com a tag `amenity=restaurant` dentro de um raio a partir de uma coordenada (`around:raio,lat,lng`)
 - **Como é consumida:** a chamada é feita pelo back-end ([restaurantes_backend_API](https://github.com/Carloshvf/ArquiSoftBackendMVP)), não diretamente pelo front — a interface consome a rota própria `GET /api/descobrir` da nossa API, que internamente consulta a Overpass e trata os dados antes de devolver, evitando qualquer redirecionamento do usuário para o serviço externo.
 
 ## Funcionalidades
