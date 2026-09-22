@@ -4,7 +4,7 @@ Interface web para salvar restaurantes favoritos com nota pessoal, comentários 
 
 ## Arquitetura
 
-![Arquitetura da aplicação](docs/arquitetura.png)
+![Arquitetura da aplicação](docs/Fluxuograma.drawio.png)
 
 A interface se comunica via REST com a API principal ([restaurantes_backend_API](https://github.com/Carloshvf/ArquiSoftBackendMVP)), responsável por persistir os favoritos em SQLite e por consultar a Overpass API (OpenStreetMap) para trazer restaurantes próximos a uma coordenada.
 
