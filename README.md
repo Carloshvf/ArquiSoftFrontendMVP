@@ -42,7 +42,7 @@ restaurantes_frontend_API/
 │ ├── App.jsx
 │ └── main.jsx
 ├── docs/
-│ └── arquitetura.png
+│ └── Fluxuograma.drawio.png
 ├── Dockerfile
 ├── .dockerignore
 ├── package.json
