@@ -31,6 +31,7 @@ A interface se comunica via REST com a API principal ([ArquiSoftBackendMVP](http
 
 ## Estrutura de pastas
 
+```
 ArquiSoftFrontendMVP/
 ├── src/
 │ ├── api/
@@ -47,6 +48,7 @@ ArquiSoftFrontendMVP/
 ├── .dockerignore
 ├── package.json
 └── README.md
+```
 
 ## Como rodar localmente (sem Docker)
 
